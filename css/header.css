@@ -1,0 +1,29 @@
+.cabecalho-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10%;
+}
+
+.logo-portfolio{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 50px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #0009;
+}
+
+@media (max-width: 778px) {
+    header{
+        height: 2%;
+        width: 41%;
+        position: fixed;
+        background-color: #0009;
+    }
+}

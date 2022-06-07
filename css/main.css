@@ -1,0 +1,220 @@
+.sessao1{
+    background-image: url(../images/section1-bg.svg);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 7% 0;
+    gap: 2vh;
+    height: 76vh;
+}
+
+.texto1,
+.texto2{
+    color: #fff;
+}
+
+.imagens{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.imagens img{
+    height: 150px;
+    transition: all .7s;
+}
+
+.imagens img:hover{
+    height: 250px;
+}
+
+.botao{
+    color: #fff;
+}
+
+.tituloOq,
+.textoOq {
+    color: #fff;
+    width: 800px;
+    text-align: center;
+}
+
+.textos1{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo1,
+.grupo2{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px; 
+    gap: 2vh;
+}
+
+.grupo1{
+    gap: 100px;
+    padding: 40px;
+}
+
+.grupo2{
+    gap: 100px;
+    padding: 40px;
+}
+
+
+.sessao2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4% 0;
+    gap: 10vh;
+    padding-left: 50px;   
+}
+.introducao{
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.projeto1,
+.projeto2,
+.projeto3,
+.projeto4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.projeto2,
+.projeto4{
+    flex-direction: row-reverse;
+    padding-right: 40px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    padding-left: 2px;
+    height: 10%;
+    width: 40%;
+}
+
+.textoCoca,
+.textoPersonagem,
+.textoDoctor,
+.textoPanama{
+    width: 800px;
+    font-size: 2rem;
+    color: #000;
+}
+
+.tituloCoca,
+.tituloPer,
+.tituloDoctor,
+.tituloPanama{
+    color: #000;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.sessao3{
+    background-image: url(../images/section1-bg.svg);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 7% 0;
+    gap: 3vh;
+    height: 22vh;
+}
+
+.contato,
+.textoFooter {
+    color: #fff;
+}
+
+.linha-horizontal {
+    width: 1500px;
+    border: 1px solid #fff;
+}
+
+.fim {
+    color: #fff;
+}
+
+
+@media (max-width: 778px) {
+    .sessao1{
+        height: 100%;
+        width: 100%;
+        gap: 10vh;
+    }
+
+    .imagens{
+        flex-direction: column;
+    }
+
+   .texto1,
+    .texto2 {
+        font-size: 20px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .tituloOq{
+        font-size: 20px;
+    }
+    .textoOq{
+        font-size: 15px;
+        height: 15px;
+        width: 800px;
+    }
+
+    .icones{
+        display: none;
+    }
+    .sessao2{
+        height: 100%;
+        width: 100%;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4{
+        width: 250px;
+        height: 150px;
+    }
+
+    .sessao3{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tituloCoca,
+    .tituloPer,
+    .tituloDoctor,
+    .tituloPanama {
+    font-size: 15px;
+}
+
+    .textoCoca,
+    .textoPersonagem,
+    .textoDoctor,
+    .textoPanama{
+        font-size: 10px;
+    }
+
+    .textoFooter{
+        text-align: center;
+    }
+}
