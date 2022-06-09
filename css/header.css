@@ -21,8 +21,8 @@ header{
 
 @media (max-width: 778px) {
     header{
-        height: 2%;
-        width: 41%;
+        height: 3%;
+        width: 40%;
         position: fixed;
         background-color: #0009;
     }

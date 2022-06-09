@@ -78,9 +78,13 @@
     padding: 4% 0;
     gap: 10vh;
     padding-left: 50px;   
+    background-image: url(../images/ece2de04f51330f203d51a12ac378f0c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 .introducao{
-    color: #000;
+    color: #fff;
     display: flex;
     justify-content: center;
 }
@@ -108,6 +112,7 @@
     padding-left: 2px;
     height: 10%;
     width: 40%;
+    border: 3px solid rgb(255, 196, 0);
 }
 
 .textoCoca,
@@ -116,14 +121,14 @@
 .textoPanama{
     width: 800px;
     font-size: 2rem;
-    color: #000;
+    color: #fff;
 }
 
 .tituloCoca,
 .tituloPer,
 .tituloDoctor,
 .tituloPanama{
-    color: #000;
+    color: #fff;
     text-align: center;
     padding-right: 15px;
 }
@@ -141,6 +146,13 @@
 .contato,
 .textoFooter {
     color: #fff;
+    font-size: 50px;
+}
+
+.contato{
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .linha-horizontal {
@@ -155,8 +167,9 @@
 
 @media (max-width: 778px) {
     .sessao1{
+        padding-top: 10%;
         height: 100%;
-        width: 100%;
+        width: 102%;
         gap: 10vh;
     }
 
@@ -175,7 +188,7 @@
     }
     .textoOq{
         font-size: 15px;
-        height: 15px;
+        height: 30px;
         width: 800px;
     }
 
@@ -184,37 +197,49 @@
     }
     .sessao2{
         height: 100%;
-        width: 100%;
+        width: 90%;
+        display: flex;
     }
 
     .img1,
     .img2,
     .img3,
     .img4{
-        width: 250px;
-        height: 150px;
+        display: none;
     }
 
-    .sessao3{
-        width: 100%;
-        height: 100%;
+    .introducao{
+        padding-left: 5px;
     }
 
     .tituloCoca,
     .tituloPer,
     .tituloDoctor,
     .tituloPanama {
+    padding-left: 1%;
     font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
     .textoCoca,
     .textoPersonagem,
     .textoDoctor,
     .textoPanama{
+        padding-left: 2%;
         font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .textoFooter{
         text-align: center;
+    }
+
+    .sessao3{
+        width: 102%;
+        height: 100%;
     }
 }
