@@ -1,0 +1,5 @@
+/*isso é pra ajustar o tamanho da tela no mobile e não ficar aquele espaço branco*/
+body, html{
+    position: relative;
+    overflow-x: hidden;
+}
