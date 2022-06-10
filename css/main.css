@@ -90,6 +90,10 @@
     padding: 40px;
 }
 
+.textoMobile {
+    display: none;
+}
+
 
 .sessao2{
     display: flex;
@@ -219,6 +223,14 @@
 
     .icones{
         display: none;
+    }
+
+    .oq{
+        display: none;
+    }
+
+    .tituloMobile{
+        display: over-block;
     }
     .sessao2{
         height: 100%;
