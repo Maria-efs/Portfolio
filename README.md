@@ -19,5 +19,5 @@ O objetivo principal do projeto foi ter o primeiro contato com FrameWork, nesse 
 
 ---
 ## Autor
-- [Maria Eduarda Fernandes](https://github.com/Maria-efs)
+[Maria Eduarda Fernandes](https://github.com/Maria-efs)
 
