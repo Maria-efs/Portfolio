@@ -2,7 +2,7 @@
 Projeto contruído durante as aulas de LIMA, no curso de desenvolvimento de sistemas do [SENAI JANDIRA](https://jandira.sp.senai.br/).
 
 ---
-## Qual era o bjetivo do projeto?
+## Qual era o objetivo do projeto?
 O objetivo principal do projeto foi ter o primeiro contato com FrameWork, nesse projeto usamos o FrameWork Skeleton para termos uma noção de como funciona o uso dessa ferramenta e como ela pode nos ajudar em projetos futuros.
 
 ---
